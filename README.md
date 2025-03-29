@@ -3,6 +3,25 @@
 ## Introduction
 CLaSTNet is a deep learning model designed for breast cancer detection using histopathological images from the **BreaKHis dataset**. The model leverages CNN and Vision Transformers (ViTs) to classify benign and malignant tumors with high accuracy.
 
+## File Structure  
+
+```bash
+CLaSTNet-BreastCancerDetection/
+│── models/
+│   ├── CLaST.py
+│   ├── Blocks.py
+│── data/
+│   ├── dataloader.py
+│── experiments/
+│   ├── train.py
+│   ├── evaluate.py
+│── README.md
+│── requirements.txt
+│── LICENSE
+```
+
+This structure ensures modularity, making it easy to manage models, data handling, and experiments
+
 ## Requirements
 Make sure you are using **Python 3.10.11**, as other versions may cause compatibility issues.
 Ensure you have the following dependencies installed:
