@@ -4,6 +4,7 @@
 CLaSTNet is a deep learning model designed for breast cancer detection using histopathological images from the **BreaKHis dataset**. The model leverages CNN and Vision Transformers (ViTs) to classify benign and malignant tumors with high accuracy.
 
 ## Requirements
+Make sure you are using **Python 3.10.11**, as other versions may cause compatibility issues.
 Ensure you have the following dependencies installed:
 
 - torch==2.5.1+cu118  
