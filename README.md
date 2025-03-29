@@ -26,6 +26,26 @@ To install dependencies, run:
 pip install torch==2.5.1+cu118 torchvision==0.20.1+cu118 pandas==2.2.3 numpy==1.26.3 Pillow==10.2.0 scikit-learn==1.6.1 matplotlib==3.10.0 seaborn==0.13.2 timm==1.0.13 tqdm==4.67.1 torchinfo==1.8.0 thop==0.1.1.post2209072238
 ```
 
+
+## BreakHis Dataset  
+The **BreaKHis** dataset consists of histopathology images categorized into **benign** and **malignant** tumor classes. The dataset contains images at different magnifications: **40X, 100X, 200X, and 400X**.  
+
+- **Total Images:** 7,909  
+- **Benign Samples:** 2,480  
+- **Malignant Samples:** 5,429  
+
+### Dataset Directory Structure  
+
+```bash
+BreaKHis_v1/
+│── histology_slides/
+│   ├── breast/
+│   │   ├── benign/
+│   │   ├── malignant/
+```
+
+Make sure your dataset follows this directory structure for correct data loading.
+
 ## Usage
 ### 1️ **Dataset Setup**
 Download the BreaKHis dataset from the following link:
