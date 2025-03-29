@@ -11,8 +11,8 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # Define dataset paths
-base_dir = "D:/FYP/Code/BreakHis/BreakHis dataset/BreaKHis_v1/"
-df = pd.read_csv("D:/FYP/Code/BreakHis/BreakHis dataset/Folds.csv")
+base_dir = "path_to_your_dataset/BreaKHis_v1/"
+df = pd.read_csv("path_to_your_dataset/Folds.csv")
 
 # Extract label (benign/malignant) from the filename
 df['label'] = df['filename'].str.extract("(malignant|benign)")
