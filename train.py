@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from old_dataloader import train_dataset, val_dataset, test_dataset
+from dataloader import train_dataset, val_dataset, test_dataset
 from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 import time
