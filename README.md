@@ -16,7 +16,6 @@ CLaSTNet-BreastCancerDetection/
 │   ├── train.py
 │   ├── evaluate.py
 │── README.md
-│── requirements.txt
 │── LICENSE
 ```
 
